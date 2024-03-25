@@ -21,9 +21,8 @@
 
 
 module cable(
-   input logic A,D
-   output logic B,C
+   input logic A
+   output logic B
     );
     assign B = A;
-    assign D = C;
 endmodule
