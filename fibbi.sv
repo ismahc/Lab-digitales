@@ -27,3 +27,6 @@ module fibbi(
     
     assign F = (~A && ~C) || (~B && ~C) || (~B && ~D);
 endmodule
+
+
+amsdbdkjadkndak
