@@ -1,15 +1,14 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// University: Universidad Tecnica Federico Santa Maria
-// Course: ELO212
-// Students: 
+// Company: 
+// Engineer: 
 // 
-// Create Date: 
-// Design Name: Guia 4
+// Create Date: 25.04.2024 21:14:24
+// Design Name: 
 // Module Name: S4_actividad3
 // Project Name: 
-// Target Devices: xc7a100tcsg324-1
-// Tool Versions: Vivado 2021.1
+// Target Devices: 
+// Tool Versions: 
 // Description: 
 // 
 // Dependencies: 
@@ -20,11 +19,11 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module S4_actividad3_optimizada #(parameter M=8)(
+module S4_actividad3 #(parameter M=8)(
     input logic [M-1:0] A,
     input logic [M-1:0] B,
     input logic [1:0] OpCode,
-    output logic [4:0] flags,
+    output logic [4:0] Flags,
     output logic [M-1:0] Result
 );
     // Variables internas
@@ -32,10 +31,10 @@ module S4_actividad3_optimizada #(parameter M=8)(
     logic [M:0] R;
     always_comb begin
         case(OpCode)
-            2'b00: R = ~(A | B);  // NOR 
-            2'b01: R = ~(A & B);  // NAND 
-            2'b10: R = A + B;     // SUMA
-            2'b11: R = A - B;     // RESTA 
+            2'b00: R = A - B;  // RESTA
+            2'b01: R = A + B;     // SUMA
+            2'b10: R = (A | B);  // OR 
+            2'b11: R = (A & B);  // AND
             default: R = 0;       // Default 
         endcase
 
@@ -46,14 +45,16 @@ module S4_actividad3_optimizada #(parameter M=8)(
 
         N = Result[M-1];  // N
 
-        P = ((^Result) & 1'b1);  // P
 
-        if(OpCode == 2'b10)begin
-            V = ((~A[M-1] & ~B[M-1] & Result[M-1]) | (A[M-1] & B[M-1] & ~Result[M-1]));  // V
-            C = (R[M] == 1);  // C
-        end else if(OpCode == 2'b11)begin
+        P = (^Result); //si el Xor bit a bit da 0. entonces es par, en 1 es impar
+
+
+        if(OpCode == 2'b00)begin
             V = ((~A[M-1] & B[M-1] & Result[M-1]) | (A[M-1] & ~B[M-1] & ~Result[M-1]));  // V
-            C = (A < B);  // C
+            C = R[M];  // C
+        end else if(OpCode == 2'b01)begin
+             V =((~A[M-1] & ~B[M-1] & Result[M-1]) | (A[M-1] & B[M-1] & ~Result[M-1]));  // V
+            C = R[M];
         end else begin
             V = 0;  // V
             C = 0;  // C
@@ -61,7 +62,6 @@ module S4_actividad3_optimizada #(parameter M=8)(
 
     end 
 
-    assign flags = {V, C, Z, N, P};
+    assign Flags = {N,Z,C,V,P};
 
 endmodule
-
