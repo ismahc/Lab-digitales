@@ -23,7 +23,7 @@
 module S4_actividad2 #(parameter N = 32)(
 	input  logic            clock, reset,
 	input  logic            dec, enable, load,
-	input  logic [N-1:0]    Load_Ref_value,
+	input  logic [N-1:0]    load_ref_value,
 	output logic [N-1:0]    counterN,
 	output logic            threshold
     	);
@@ -38,10 +38,10 @@ module S4_actividad2 #(parameter N = 32)(
 	end
 
 	always_comb begin
-		if (load==1)
-			next_counter= Load_Ref_value;
-		else if (enable==0)
+		if (enable==0)
 			next_counter = counterN;
+			if (load==1)
+				next_counter= load_ref_value;
 			
 		else if (dec==1)
 			next_counter = counterN-1;
@@ -49,7 +49,7 @@ module S4_actividad2 #(parameter N = 32)(
 			next_counter = counterN+1; 
 		
 			    
-		if (counterN <= Load_Ref_value)
+		if (counterN <= load_ref_value)
 		    	threshold = 0;
 		else
 		    	threshold =1; 
