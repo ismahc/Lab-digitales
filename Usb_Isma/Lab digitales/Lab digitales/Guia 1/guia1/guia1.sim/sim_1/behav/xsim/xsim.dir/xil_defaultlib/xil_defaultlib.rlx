@@ -1,0 +1,13 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 1/guia1/guia1.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 1/guia1/guia1.srcs/sim_1/new/test_fib.sv,1680291982,systemVerilog,,,,test_fib,,uvm,,,,,,
+C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 1/guia1/guia1.srcs/sim_1/new/test_fib_rec.sv,1680293374,systemVerilog,,,,test_fib_rec,,uvm,,,,,,
+C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 1/guia1/guia1.srcs/sim_1/new/test_mux.sv,1680296008,systemVerilog,,,,test_mux,,uvm,,,,,,
+C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 1/guia1/guia1.srcs/sim_1/new/test_simple.sv,1680287819,systemVerilog,,,,test_simple,,uvm,,,,,,
+C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 1/guia1/guia1.srcs/sources_1/new/fib_rec.sv,1680292655,systemVerilog,,C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 1/guia1/guia1.srcs/sim_1/new/test_fib_rec.sv,,fib_rec,,uvm,,,,,,
+C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 1/guia1/guia1.srcs/sources_1/new/fibbinario.sv,1680292114,systemVerilog,,C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 1/guia1/guia1.srcs/sim_1/new/test_fib.sv,,fibbinario,,uvm,,,,,,
+C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 1/guia1/guia1.srcs/sources_1/new/logica_simple.sv,1680286144,systemVerilog,,C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 1/guia1/guia1.srcs/sim_1/new/test_simple.sv,,logica_simple,,uvm,,,,,,
+C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 1/guia1/guia1.srcs/sources_1/new/mux.sv,1680294669,systemVerilog,,C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 1/guia1/guia1.srcs/sim_1/new/test_mux.sv,,mux,,uvm,,,,,,

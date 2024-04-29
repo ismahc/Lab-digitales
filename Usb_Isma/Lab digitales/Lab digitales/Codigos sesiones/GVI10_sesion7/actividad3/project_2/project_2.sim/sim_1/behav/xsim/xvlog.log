@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ismae/OneDrive/Escritorio/GVI10_sesion7/actividad3/project_2/project_2.srcs/sources_1/new/nombre.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nombre
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ismae/OneDrive/Escritorio/GVI10_sesion7/actividad3/project_2/project_2.srcs/sim_1/new/testnombre.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testnombre
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ismae/OneDrive/Escritorio/GVI10_sesion7/actividad3/project_2/project_2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

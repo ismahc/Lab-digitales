@@ -1,0 +1,74 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Jun 23 12:13:01 2023
+# Process ID: 1332
+# Current directory: G:/My Drive/ELO212-2023/CasaCentral/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4328 G:\My Drive\ELO212-2023\CasaCentral\Vivado_lab_sesions\SesionLab10\Initial_Test_Uart\TestUart.xpr
+# Log file: G:/My Drive/ELO212-2023/CasaCentral/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/vivado.log
+# Journal file: G:/My Drive/ELO212-2023/CasaCentral/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart\vivado.jou
+# Running On: USM-PROJECT, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 4, Host memory: 8443 MB
+#-----------------------------------------------------------
+start_gui
+open_project {G:/My Drive/ELO212-2023/CasaCentral/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {G:/My Drive/ELO212-2023/CasaCentral/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.runs/impl_1/Main.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {G:/My Drive/ELO212-2023/CasaCentral/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.runs/impl_1/Main.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {G:/My Drive/ELO212-2023/CasaCentral/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.runs/impl_1/Main.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {G:/My Drive/ELO212-2023/CasaCentral/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.runs/impl_1/Main.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {G:/My Drive/ELO212-2023/CasaCentral/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.runs/impl_1/Main.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+close_project
+create_project uart C:/Users/usm_p/Downloads/uart -part xc7a100tcsg324-1
+add_files {C:/Users/usm_p/Downloads/ELO212-reference-modules-master/ELO212-reference-modules-master/UART_reference_files/UART_ME_reference/UART_master.srcs/sources/display_mux.v C:/Users/usm_p/Downloads/ELO212-reference-modules-master/ELO212-reference-modules-master/UART_reference_files/UART_ME_reference/UART_master.srcs/sources/uart/uart_baud_tick_gen.v C:/Users/usm_p/Downloads/ELO212-reference-modules-master/ELO212-reference-modules-master/UART_reference_files/UART_ME_reference/UART_master.srcs/sources/clk_divider.v C:/Users/usm_p/Downloads/ELO212-reference-modules-master/ELO212-reference-modules-master/UART_reference_files/UART_ME_reference/UART_master.srcs/sources/ME_top.sv C:/Users/usm_p/Downloads/ELO212-reference-modules-master/ELO212-reference-modules-master/UART_reference_files/UART_ME_reference/UART_master.srcs/sources/FSM_debouncer.sv C:/Users/usm_p/Downloads/ELO212-reference-modules-master/ELO212-reference-modules-master/UART_reference_files/UART_ME_reference/UART_master.srcs/sources/UART_tx_control_wrapper.sv C:/Users/usm_p/Downloads/ELO212-reference-modules-master/ELO212-reference-modules-master/UART_reference_files/UART_ME_reference/UART_master.srcs/sources/uart/data_sync.v C:/Users/usm_p/Downloads/ELO212-reference-modules-master/ELO212-reference-modules-master/UART_reference_files/UART_ME_reference/UART_master.srcs/sources/TX_sequence.sv C:/Users/usm_p/Downloads/ELO212-reference-modules-master/ELO212-reference-modules-master/UART_reference_files/UART_ME_reference/UART_master.srcs/sources/TX_control.sv C:/Users/usm_p/Downloads/ELO212-reference-modules-master/ELO212-reference-modules-master/UART_reference_files/UART_ME_reference/UART_master.srcs/sources/bcd_to_ss.v C:/Users/usm_p/Downloads/ELO212-reference-modules-master/ELO212-reference-modules-master/UART_reference_files/UART_ME_reference/UART_master.srcs/sources/unsigned_to_bcd.v C:/Users/usm_p/Downloads/ELO212-reference-modules-master/ELO212-reference-modules-master/UART_reference_files/UART_ME_reference/UART_master.srcs/sources/uart/uart_tx.v C:/Users/usm_p/Downloads/ELO212-reference-modules-master/ELO212-reference-modules-master/UART_reference_files/UART_ME_reference/UART_master.srcs/sources/uart/uart_basic.v C:/Users/usm_p/Downloads/ELO212-reference-modules-master/ELO212-reference-modules-master/UART_reference_files/UART_ME_reference/UART_master.srcs/sources/uart/uart_rx.v}
+import_files -force
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse C:/Users/usm_p/Downloads/ELO212-reference-modules-master/ELO212-reference-modules-master/UART_reference_files/UART_ME_reference/UART_master.srcs/constrs/UART_master_const.xdc
+import_files -fileset constrs_1 C:/Users/usm_p/Downloads/ELO212-reference-modules-master/ELO212-reference-modules-master/UART_reference_files/UART_ME_reference/UART_master.srcs/constrs/UART_master_const.xdc
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/usm_p/Downloads/uart/uart.runs/impl_1/ME_top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/usm_p/Downloads/uart/uart.runs/impl_1/ME_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Apr 14 16:14:18 2023
+# Process ID: 192
+# Current directory: C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 2/guia_2/guia_2.runs/synth_1
+# Command line: vivado.exe -log counter_4bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source counter_4bit.tcl
+# Log file: C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 2/guia_2/guia_2.runs/synth_1/counter_4bit.vds
+# Journal file: C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 2/guia_2/guia_2.runs/synth_1\vivado.jou
+# Running On: LAPTOP-KMRB3L2R, OS: Windows, CPU Frequency: 2895 MHz, CPU Physical cores: 16, Host memory: 7907 MB
+#-----------------------------------------------------------
+source counter_4bit.tcl -notrace

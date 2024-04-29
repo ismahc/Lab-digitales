@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test3_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test3" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="26.321 ns"></ZoomEndTime>
+      <Cursor1Time time="344.210 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="178"></NameColumnWidth>
+      <ValueColumnWidth column_width="86"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/test3/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test3/resetN" type="logic">
+      <obj_property name="ElementShortName">resetN</obj_property>
+      <obj_property name="ObjectShortName">resetN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test3/Enter" type="logic">
+      <obj_property name="ElementShortName">Enter</obj_property>
+      <obj_property name="ObjectShortName">Enter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test3/Undo" type="logic">
+      <obj_property name="ElementShortName">Undo</obj_property>
+      <obj_property name="ObjectShortName">Undo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test3/DataIn" type="array">
+      <obj_property name="ElementShortName">DataIn[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DataIn[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test3/Flags" type="array">
+      <obj_property name="ElementShortName">Flags[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Flags[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test3/Status" type="array">
+      <obj_property name="ElementShortName">Status[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Status[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test3/Segments" type="array">
+      <obj_property name="ElementShortName">Segments[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Segments[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test3/Anodes" type="array">
+      <obj_property name="ElementShortName">Anodes[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Anodes[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test3/DUT/ReversePolishFSM/state" type="array">
+      <obj_property name="ElementShortName">state[6:0]</obj_property>
+      <obj_property name="ObjectShortName">state[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test3/DUT/Debouncer_enter/state" type="array">
+      <obj_property name="ElementShortName">state[5:0]</obj_property>
+      <obj_property name="ObjectShortName">state[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test3/DUT/Debouncer_enter/delay_timer" type="array">
+      <obj_property name="ElementShortName">delay_timer[3:0]</obj_property>
+      <obj_property name="ObjectShortName">delay_timer[3:0]</obj_property>
+   </wvobject>
+</wave_config>

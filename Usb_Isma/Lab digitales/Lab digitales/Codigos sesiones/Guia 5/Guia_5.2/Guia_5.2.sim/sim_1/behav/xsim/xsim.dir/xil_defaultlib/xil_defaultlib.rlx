@@ -1,0 +1,14 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+E:/Fotos lab digitales/Guia 5/Guia_5.2/Guia_5.2.sim/sim_1/behav/xsim/glbl.v,1665704904,verilog,,,,glbl,,uvm,,,,,,
+E:/Fotos lab digitales/Guia 5/Guia_5.2/Guia_5.2.srcs/sim_1/new/test_bench.sv,1685733068,systemVerilog,,,,test_bench,,uvm,,,,,,
+E:/Fotos lab digitales/Guia 5/Guia_5.2/Guia_5.2.srcs/sources_1/new/BCD_to_sevenSeg.sv,1685027928,systemVerilog,,E:/Fotos lab digitales/Guia 5/Guia_5.2/Guia_5.2.srcs/sources_1/new/Dec_8.sv,,BCD_to_sevenSeg,,uvm,,,,,,
+E:/Fotos lab digitales/Guia 5/Guia_5.2/Guia_5.2.srcs/sources_1/new/Dec_8.sv,1685032036,systemVerilog,,E:/Fotos lab digitales/Guia 5/Guia_5.2/Guia_5.2.srcs/sources_1/new/Mux_temporal_multi_bits.sv,,Dec_8,,uvm,,,,,,
+E:/Fotos lab digitales/Guia 5/Guia_5.2/Guia_5.2.srcs/sources_1/new/Mux_temporal_multi_bits.sv,1685028300,systemVerilog,,E:/Fotos lab digitales/Guia 5/Guia_5.2/Guia_5.2.srcs/sources_1/new/S4_actividad1.sv,,Mux_temporal_multi_bits,,uvm,,,,,,
+E:/Fotos lab digitales/Guia 5/Guia_5.2/Guia_5.2.srcs/sources_1/new/S4_actividad1.sv,1685028760,systemVerilog,,E:/Fotos lab digitales/Guia 5/Guia_5.2/Guia_5.2.srcs/sources_1/new/S4_actividad3.sv,,S4_actividad1,,uvm,,,,,,
+E:/Fotos lab digitales/Guia 5/Guia_5.2/Guia_5.2.srcs/sources_1/new/S4_actividad3.sv,1685028966,systemVerilog,,E:/Fotos lab digitales/Guia 5/Guia_5.2/Guia_5.2.srcs/sources_1/new/alu_reg.sv,,S4_actividad3,,uvm,,,,,,
+E:/Fotos lab digitales/Guia 5/Guia_5.2/Guia_5.2.srcs/sources_1/new/alu_reg.sv,1685652410,systemVerilog,,E:/Fotos lab digitales/Guia 5/Guia_5.2/Guia_5.2.srcs/sources_1/new/counter_Nbits.sv,,alu_reg,,uvm,,,,,,
+E:/Fotos lab digitales/Guia 5/Guia_5.2/Guia_5.2.srcs/sources_1/new/counter_Nbits.sv,1685028096,systemVerilog,,E:/Fotos lab digitales/Guia 5/Guia_5.2/Guia_5.2.srcs/sources_1/new/reg_param.sv,,counter_Nbits,,uvm,,,,,,
+E:/Fotos lab digitales/Guia 5/Guia_5.2/Guia_5.2.srcs/sources_1/new/reg_param.sv,1685028478,systemVerilog,,E:/Fotos lab digitales/Guia 5/Guia_5.2/Guia_5.2.srcs/sim_1/new/test_bench.sv,,reg_param,,uvm,,,,,,

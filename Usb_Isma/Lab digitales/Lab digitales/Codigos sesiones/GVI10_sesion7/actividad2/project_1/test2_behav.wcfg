@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="135.970 ns"></ZoomStartTime>
+      <ZoomEndTime time="306.271 ns"></ZoomEndTime>
+      <Cursor1Time time="202.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="206"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/test2/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/Enter" type="logic">
+      <obj_property name="ElementShortName">Enter</obj_property>
+      <obj_property name="ObjectShortName">Enter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/Undo" type="logic">
+      <obj_property name="ElementShortName">Undo</obj_property>
+      <obj_property name="ObjectShortName">Undo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/DataIn" type="array">
+      <obj_property name="ElementShortName">DataIn[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DataIn[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/ToDisplay" type="array">
+      <obj_property name="ElementShortName">ToDisplay[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ToDisplay[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/Flags" type="array">
+      <obj_property name="ElementShortName">Flags[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Flags[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/Status" type="array">
+      <obj_property name="ElementShortName">Status[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Status[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/DUT/Level_to_Pulse_1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/DUT/Level_to_Pulse_1/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/DUT/Level_to_Pulse_1/L" type="logic">
+      <obj_property name="ElementShortName">L</obj_property>
+      <obj_property name="ObjectShortName">L</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/DUT/Level_to_Pulse_1/P" type="logic">
+      <obj_property name="ElementShortName">P</obj_property>
+      <obj_property name="ObjectShortName">P</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/DUT/Level_to_Pulse_1/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/DUT/Level_to_Pulse_1/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/DUT/Level_to_Pulse/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/DUT/Level_to_Pulse/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/DUT/Level_to_Pulse/L" type="logic">
+      <obj_property name="ElementShortName">L</obj_property>
+      <obj_property name="ObjectShortName">L</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/DUT/Level_to_Pulse/P" type="logic">
+      <obj_property name="ElementShortName">P</obj_property>
+      <obj_property name="ObjectShortName">P</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/DUT/Level_to_Pulse/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test2/DUT/Level_to_Pulse/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+</wave_config>

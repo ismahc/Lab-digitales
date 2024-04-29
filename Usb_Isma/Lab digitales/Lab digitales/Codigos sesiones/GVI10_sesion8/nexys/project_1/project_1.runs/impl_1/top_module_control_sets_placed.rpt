@@ -1,0 +1,97 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Fri Jun 16 15:15:23 2023
+| Host         : Chano_ELO running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_module_control_sets_placed.rpt
+| Design       : top_module
+| Device       : xc7a100t
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    19 |
+|    Minimum number of control sets                        |    19 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    70 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    19 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |    10 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     5 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               1 |            1 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              44 |           14 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             125 |           39 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------+-----------------------------------------+--------------------------------------------------+------------------+----------------+--------------+
+|     Clock Signal     |              Enable Signal              |                 Set/Reset Signal                 | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------+-----------------------------------------+--------------------------------------------------+------------------+----------------+--------------+
+|  CLK100MHZ_IBUF_BUFG |                                         |                                                  |                1 |              1 |         1.00 |
+|  clk_BUFG            | Sistema/ReversePolishFSM/Q[2]           | Sistema/Double_Dabble/SR[0]                      |                1 |              2 |         2.00 |
+|  clk_BUFG            |                                         | Sistema/Debouncer_enter/delay_timer[3]_i_1_n_0   |                1 |              4 |         4.00 |
+|  clk_BUFG            |                                         | Sistema/Debouncer_undo/delay_timer[3]_i_1__0_n_0 |                1 |              4 |         4.00 |
+|  clk_BUFG            | Sistema/Double_Dabble/shift[11]_i_1_n_0 | Sistema/Double_Dabble/SR[0]                      |                1 |              4 |         4.00 |
+|  clk_BUFG            | Sistema/Double_Dabble/shift[7]_i_1_n_0  | Sistema/Double_Dabble/SR[0]                      |                1 |              4 |         4.00 |
+|  clk_BUFG            | Sistema/Double_Dabble/shift[27]_i_1_n_0 | Sistema/Double_Dabble/SR[0]                      |                1 |              4 |         4.00 |
+|  clk_BUFG            | Sistema/Double_Dabble/shift[23]_i_1_n_0 | Sistema/Double_Dabble/SR[0]                      |                1 |              4 |         4.00 |
+|  clk_BUFG            | Sistema/Double_Dabble/shift[15]_i_1_n_0 | Sistema/Double_Dabble/SR[0]                      |                1 |              4 |         4.00 |
+|  clk_BUFG            | Sistema/Double_Dabble/shift[3]_i_1_n_0  | Sistema/Double_Dabble/SR[0]                      |                1 |              4 |         4.00 |
+|  clk_BUFG            | Sistema/Double_Dabble/shift[31]_i_1_n_0 | Sistema/Double_Dabble/SR[0]                      |                1 |              4 |         4.00 |
+|  clk_BUFG            | Sistema/Double_Dabble/shift[19]_i_1_n_0 | Sistema/Double_Dabble/SR[0]                      |                1 |              4 |         4.00 |
+|  clk_BUFG            | Sistema/Double_Dabble/counter_next      | Sistema/Double_Dabble/SR[0]                      |                2 |              6 |         3.00 |
+|  CLK100MHZ_IBUF_BUFG |                                         | clock/counter[8]_i_1_n_0                         |                2 |              9 |         4.50 |
+|  clk_BUFG            | Sistema/ReversePolishFSM/Q[0]           | Sistema/Double_Dabble/SR[0]                      |                6 |             16 |         2.67 |
+|  clk_BUFG            | Sistema/ReversePolishFSM/Q[1]           | Sistema/Double_Dabble/SR[0]                      |                5 |             16 |         3.20 |
+|  clk_BUFG            | Sistema/ReversePolishFSM/Q[3]           | Sistema/Double_Dabble/SR[0]                      |                8 |             21 |         2.62 |
+|  clk_BUFG            |                                         | Sistema/Double_Dabble/SR[0]                      |               10 |             27 |         2.70 |
+|  clk_BUFG            | Sistema/Double_Dabble/bcd_next          | Sistema/Double_Dabble/SR[0]                      |                9 |             32 |         3.56 |
++----------------------+-----------------------------------------+--------------------------------------------------+------------------+----------------+--------------+
+
+

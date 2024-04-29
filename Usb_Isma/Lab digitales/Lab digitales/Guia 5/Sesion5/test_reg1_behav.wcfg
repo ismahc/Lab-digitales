@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_alu_reg_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_alu_reg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="587.723 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="206"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/test_alu_reg/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_alu_reg/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_alu_reg/load_a" type="logic">
+      <obj_property name="ElementShortName">load_a</obj_property>
+      <obj_property name="ObjectShortName">load_a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_alu_reg/load_b" type="logic">
+      <obj_property name="ElementShortName">load_b</obj_property>
+      <obj_property name="ObjectShortName">load_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_alu_reg/load_Op" type="logic">
+      <obj_property name="ElementShortName">load_Op</obj_property>
+      <obj_property name="ObjectShortName">load_Op</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_alu_reg/updateRes" type="logic">
+      <obj_property name="ElementShortName">updateRes</obj_property>
+      <obj_property name="ObjectShortName">updateRes</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_alu_reg/Segments" type="array">
+      <obj_property name="ElementShortName">Segments[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Segments[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_alu_reg/Anodes" type="array">
+      <obj_property name="ElementShortName">Anodes[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Anodes[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_alu_reg/LEDs" type="logic">
+      <obj_property name="ElementShortName">LEDs</obj_property>
+      <obj_property name="ObjectShortName">LEDs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_alu_reg/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_alu_reg/DUT/registro_a/Q" type="array">
+      <obj_property name="ElementShortName">Q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_alu_reg/DUT/registro_b/Q" type="array">
+      <obj_property name="ElementShortName">Q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_alu_reg/DUT/registro_op/Q" type="array">
+      <obj_property name="ElementShortName">Q[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_alu_reg/DUT/result_alu/Q" type="array">
+      <obj_property name="ElementShortName">Q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

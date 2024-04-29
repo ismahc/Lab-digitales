@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/new/Display.sv" \
+"../../../../project_1.srcs/sources_1/new/ReversePolishFSM.sv" \
+"../../../../project_1.srcs/sources_1/new/S4_actividad3.sv" \
+"../../../../project_1.srcs/sources_1/new/S6_Actividad1.sv" \
+"../../../../project_1.srcs/sources_1/new/S7_actividad1.sv" \
+"../../../../project_1.srcs/sources_1/new/edge_detector.sv" \
+"../../../../project_1.srcs/sources_1/new/reg_param.sv" \
+"../../../../project_1.srcs/sim_1/new/test.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

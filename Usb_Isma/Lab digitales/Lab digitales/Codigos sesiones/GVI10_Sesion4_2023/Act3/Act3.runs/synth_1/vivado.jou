@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri May  5 11:05:03 2023
+# Process ID: 1976
+# Current directory: E:/Fotos lab digitales/GVI10_Sesion4_2023/Act3/Act3.runs/synth_1
+# Command line: vivado.exe -log S4_actividad3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source S4_actividad3.tcl
+# Log file: E:/Fotos lab digitales/GVI10_Sesion4_2023/Act3/Act3.runs/synth_1/S4_actividad3.vds
+# Journal file: E:/Fotos lab digitales/GVI10_Sesion4_2023/Act3/Act3.runs/synth_1\vivado.jou
+# Running On: Chano_ELO, OS: Windows, CPU Frequency: 2994 MHz, CPU Physical cores: 12, Host memory: 7907 MB
+#-----------------------------------------------------------
+source S4_actividad3.tcl -notrace

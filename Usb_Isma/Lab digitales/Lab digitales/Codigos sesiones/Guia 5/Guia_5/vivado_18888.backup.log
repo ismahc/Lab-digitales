@@ -1,0 +1,841 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Jun 21 15:58:04 2023
+# Process ID: 18888
+# Current directory: E:/Fotos lab digitales/Guia 5/Guia_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14804 E:\Fotos lab digitales\Guia 5\Guia_5\Guia_5.xpr
+# Log file: E:/Fotos lab digitales/Guia 5/Guia_5/vivado.log
+# Journal file: E:/Fotos lab digitales/Guia 5/Guia_5\vivado.jou
+# Running On: Chano_ELO, OS: Windows, CPU Frequency: 2994 MHz, CPU Physical cores: 12, Host memory: 7907 MB
+#-----------------------------------------------------------
+start_gui
+open_project {E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.2/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.3/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.4/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.0/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.1/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1114.309 ; gain = 307.500
+update_compile_order -fileset sources_1
+set_property top counter1 [current_fileset]
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: counter1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1896.684 ; gain = 402.574
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'counter1' [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/counter1.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'counter1' (0#1) [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/counter1.sv:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1987.547 ; gain = 493.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1987.547 ; gain = 493.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1987.547 ; gain = 493.438
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1987.547 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'CLK100MHZ'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CLK100MHZ'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:8]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports CLK100MHZ]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:8]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'SW[0]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[1]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[2]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[3]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[4]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[5]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[6]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[7]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[8]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[9]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[10]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[11]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[12]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[13]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[14]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[15]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[4]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CA'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CB'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CC'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CD'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CE'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CF'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CG'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[0]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[1]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[2]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[3]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[4]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[5]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[6]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[7]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CPU_RESETN'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNC'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNU'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNL'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNR'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTND'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2047.293 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 2079.848 ; gain = 585.738
+6 Infos, 44 Warnings, 44 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:36 . Memory (MB): peak = 2079.848 ; gain = 959.930
+set_property top counter2 [current_fileset]
+update_compile_order -fileset sources_1
+refresh_design
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2154.449 ; gain = 57.531
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'counter2' [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/counter2.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'counter2' (0#1) [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/counter2.sv:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2249.980 ; gain = 153.062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2249.980 ; gain = 153.062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2249.980 ; gain = 153.062
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2249.980 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'CLK100MHZ'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CLK100MHZ'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:8]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports CLK100MHZ]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:8]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'SW[0]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[1]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[2]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[3]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[4]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[5]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[6]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[7]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[8]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[9]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[10]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[11]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[12]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[13]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[14]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[15]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[4]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CA'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CB'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CC'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CD'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CE'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CF'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CG'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[0]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[1]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[2]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[3]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[4]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[5]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[6]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[7]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CPU_RESETN'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNC'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNU'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNL'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNR'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTND'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc]
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2249.980 ; gain = 153.062
+set_property top counter3 [current_fileset]
+update_compile_order -fileset sources_1
+refresh_design
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2261.371 ; gain = 11.391
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'counter3' [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/counter3.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'counter3' (0#1) [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/counter3.sv:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2296.758 ; gain = 46.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2297.363 ; gain = 47.383
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2297.363 ; gain = 47.383
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2314.297 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'CLK100MHZ'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CLK100MHZ'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:8]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports CLK100MHZ]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:8]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'SW[0]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[1]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[2]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[3]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[4]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[5]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[6]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[7]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[8]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[9]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[10]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[11]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[12]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[13]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[14]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[15]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[4]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CA'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CB'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CC'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CD'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CE'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CF'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CG'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[0]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[1]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[2]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[3]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[4]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[5]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[6]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[7]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CPU_RESETN'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNC'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNU'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNL'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNR'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTND'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc]
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2314.297 ; gain = 64.316
+set_property top Contador_maestro [current_fileset]
+update_compile_order -fileset sources_1
+set_property top test_counter1 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_counter1'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_counter1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj test_counter1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/Contador_maestro.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Contador_maestro
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/counter1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/counter2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/counter3.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sim_1/new/test_counter1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_counter1
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_counter1_behav xil_defaultlib.test_counter1 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_counter1_behav xil_defaultlib.test_counter1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter1
+Compiling module xil_defaultlib.counter2
+Compiling module xil_defaultlib.counter3
+Compiling module xil_defaultlib.Contador_maestro
+Compiling module xil_defaultlib.test_counter1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_counter1_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2314.297 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_counter1_behav -key {Behavioral:sim_1:Functional:test_counter1} -tclbatch {test_counter1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_counter1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_counter1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 2314.297 ; gain = 0.000
+set_property top reg_param [current_fileset]
+set_property top_lib xil_defaultlib [current_fileset]
+set_property top_file {E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/reg_param.sv} [current_fileset]
+update_compile_order -fileset sources_1
+refresh_design
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2370.371 ; gain = 16.312
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'reg_param' [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/reg_param.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'reg_param' (0#1) [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/reg_param.sv:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2370.711 ; gain = 16.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2390.094 ; gain = 36.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2390.094 ; gain = 36.035
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2404.035 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'CLK100MHZ'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CLK100MHZ'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:8]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports CLK100MHZ]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:8]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'SW[0]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[1]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[2]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[3]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[4]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[5]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[6]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[7]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[8]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[9]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[10]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[11]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[12]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[13]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[14]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[15]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[4]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CA'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CB'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CC'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CD'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CE'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CF'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CG'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[0]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[1]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[2]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[3]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[4]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[5]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[6]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[7]'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CPU_RESETN'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNC'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNU'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNL'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNR'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTND'. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/constrs_1/new/Nexys4DDR_Master.xdc]
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2404.035 ; gain = 49.977
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sim_1/new/testreg.sv} w ]
+add_files -fileset sim_1 {{E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sim_1/new/testreg.sv}}
+update_compile_order -fileset sim_1
+set_property top testreg [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testreg'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso: "E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 21 16:30:19 2023...

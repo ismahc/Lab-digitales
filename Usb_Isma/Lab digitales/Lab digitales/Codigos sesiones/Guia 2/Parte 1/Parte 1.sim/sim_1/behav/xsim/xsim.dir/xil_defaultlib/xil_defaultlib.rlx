@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/ismae/OneDrive/Escritorio/Guia 2/Parte 1/Parte 1.sim/sim_1/behav/xsim/glbl.v,1665704904,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/ismae/OneDrive/Escritorio/Guia 2/Parte 1/Parte 1.srcs/sim_1/new/test1.sv,1684260322,systemVerilog,,,,test1,,uvm,,,,,,
+C:/Users/ismae/OneDrive/Escritorio/Guia 2/Parte 1/Parte 1.srcs/sim_1/new/test_contador.sv,1681509776,systemVerilog,,,,test_contador,,uvm,,,,,,
+C:/Users/ismae/OneDrive/Escritorio/Guia 2/Parte 1/Parte 1.srcs/sources_1/new/BCD_to_sevenSeg.sv,1681499724,systemVerilog,,C:/Users/ismae/OneDrive/Escritorio/Guia 2/Parte 1/Parte 1.srcs/sim_1/new/test1.sv,,BCD_to_sevenSeg,,uvm,,,,,,
+C:/Users/ismae/OneDrive/Escritorio/Guia 2/Parte 1/Parte 1.srcs/sources_1/new/top_contador.sv,1682036820,systemVerilog,,C:/Users/ismae/OneDrive/Escritorio/Guia 2/Parte 1/Parte 1.srcs/sim_1/new/test_contador.sv,,top_contador,,uvm,,,,,,

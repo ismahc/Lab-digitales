@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1683302450">
+  <File Type="PA-TCL" Name="S4_actividad3_optimizada.tcl"/>
+  <File Type="REPORTS-TCL" Name="S4_actividad3_optimizada_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="S4_actividad3_optimizada.msk"/>
+  <File Type="RDI-RDI" Name="S4_actividad3_optimizada.vdi"/>
+  <File Type="BG-BIT" Name="S4_actividad3_optimizada.bit"/>
+  <File Type="BG-DRC" Name="S4_actividad3_optimizada.drc"/>
+  <File Type="BG-BGN" Name="S4_actividad3_optimizada.bgn"/>
+  <File Type="BG-BIN" Name="S4_actividad3_optimizada.bin"/>
+  <File Type="BITSTR-RBT" Name="S4_actividad3_optimizada.rbt"/>
+  <File Type="BITSTR-NKY" Name="S4_actividad3_optimizada.nky"/>
+  <File Type="BITSTR-BMM" Name="S4_actividad3_optimizada_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="S4_actividad3_optimizada.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="S4_actividad3_optimizada.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="S4_actividad3_optimizada.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="S4_actividad3_optimizada.hwdef"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="S4_actividad3_optimizada_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="S4_actividad3_optimizada_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="S4_actividad3_optimizada_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="S4_actividad3_optimizada_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="S4_actividad3_optimizada_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="S4_actividad3_optimizada_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="S4_actividad3_optimizada_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="S4_actividad3_optimizada_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="S4_actividad3_optimizada_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="S4_actividad3_optimizada_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="S4_actividad3_optimizada_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="S4_actividad3_optimizada_postroute_physopt_bb.dcp"/>
+  <File Type="PDI-FILE" Name="S4_actividad3_optimizada.pdi"/>
+  <File Type="RCFI_FILE" Name="S4_actividad3_optimizada.rcfi"/>
+  <File Type="CFI_FILE" Name="S4_actividad3_optimizada.cfi"/>
+  <File Type="RNPI_FILE" Name="S4_actividad3_optimizada.rnpi"/>
+  <File Type="NPI_FILE" Name="S4_actividad3_optimizada.npi"/>
+  <File Type="RBD_FILE" Name="S4_actividad3_optimizada.rbd"/>
+  <File Type="ROUTE-RQS" Name="S4_actividad3_optimizada_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="S4_actividad3_optimizada_postroute_physopted.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/S4_actividad3.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="S4_actividad3_optimizada"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

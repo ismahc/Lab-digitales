@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/pmomi/Documents/VivadoXilinx/Usb_Isma/Lab digitales/Lab digitales/Codigos sesiones/Guia 3/Guia 3/Guia 3.sim/sim_1/behav/xsim/glbl.v,1665704904,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/pmomi/Documents/VivadoXilinx/Usb_Isma/Lab digitales/Lab digitales/Codigos sesiones/Guia 3/Guia 3/Guia 3.srcs/sim_1/new/test_sistem.sv,1682970978,systemVerilog,,,,test_sistem,,uvm,,,,,,
+C:/Users/pmomi/Documents/VivadoXilinx/Usb_Isma/Lab digitales/Lab digitales/Codigos sesiones/Guia 3/Guia 3/Guia 3.srcs/sources_1/new/BCD_to_sevenSeg.sv,1682653398,systemVerilog,,C:/Users/pmomi/Documents/VivadoXilinx/Usb_Isma/Lab digitales/Lab digitales/Codigos sesiones/Guia 3/Guia 3/Guia 3.srcs/sources_1/new/MUX_temporal.sv,,BCD_to_sevenSeg,,uvm,,,,,,
+C:/Users/pmomi/Documents/VivadoXilinx/Usb_Isma/Lab digitales/Lab digitales/Codigos sesiones/Guia 3/Guia 3/Guia 3.srcs/sources_1/new/MUX_temporal.sv,1682651720,systemVerilog,,C:/Users/pmomi/Documents/VivadoXilinx/Usb_Isma/Lab digitales/Lab digitales/Codigos sesiones/Guia 3/Guia 3/Guia 3.srcs/sources_1/new/clock_divider_par.sv,,MUX_temporal,,uvm,,,,,,
+C:/Users/pmomi/Documents/VivadoXilinx/Usb_Isma/Lab digitales/Lab digitales/Codigos sesiones/Guia 3/Guia 3/Guia 3.srcs/sources_1/new/clock_divider_par.sv,1682974396,systemVerilog,,C:/Users/pmomi/Documents/VivadoXilinx/Usb_Isma/Lab digitales/Lab digitales/Codigos sesiones/Guia 3/Guia 3/Guia 3.srcs/sources_1/new/contador_Nbits.sv,,clock_divider_par,,uvm,,,,,,
+C:/Users/pmomi/Documents/VivadoXilinx/Usb_Isma/Lab digitales/Lab digitales/Codigos sesiones/Guia 3/Guia 3/Guia 3.srcs/sources_1/new/contador_Nbits.sv,1682712776,systemVerilog,,C:/Users/pmomi/Documents/VivadoXilinx/Usb_Isma/Lab digitales/Lab digitales/Codigos sesiones/Guia 3/Guia 3/Guia 3.srcs/sources_1/new/decodificador_binario.sv,,contador_Nbits,,uvm,,,,,,
+C:/Users/pmomi/Documents/VivadoXilinx/Usb_Isma/Lab digitales/Lab digitales/Codigos sesiones/Guia 3/Guia 3/Guia 3.srcs/sources_1/new/decodificador_binario.sv,1682718394,systemVerilog,,C:/Users/pmomi/Documents/VivadoXilinx/Usb_Isma/Lab digitales/Lab digitales/Codigos sesiones/Guia 3/Guia 3/Guia 3.srcs/sources_1/new/sistema_multi.sv,,decodificador_binario,,uvm,,,,,,
+C:/Users/pmomi/Documents/VivadoXilinx/Usb_Isma/Lab digitales/Lab digitales/Codigos sesiones/Guia 3/Guia 3/Guia 3.srcs/sources_1/new/sistema_multi.sv,1682974720,systemVerilog,,C:/Users/pmomi/Documents/VivadoXilinx/Usb_Isma/Lab digitales/Lab digitales/Codigos sesiones/Guia 3/Guia 3/Guia 3.srcs/sim_1/new/test_sistem.sv,,sistema_multi,,uvm,,,,,,

@@ -1,0 +1,4 @@
+Running: xsim.dir/test_fibbi_behav/xsimk.exe -simmode gui -wdb test_fibbi_behav.wdb -simrunnum 0 -socket 50522
+Design successfully loaded
+Design Loading Memory Usage: 8492 KB (Peak: 8492 KB)
+Design Loading CPU Usage: 0 ms

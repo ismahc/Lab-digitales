@@ -1,0 +1,17 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.sim/sim_1/behav/xsim/glbl.v,1665704904,verilog,,,,glbl,,uvm,,,,,,
+E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sim_1/new/test1.sv,1683923682,systemVerilog,,,,test1,,uvm,,,,,,
+E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sim_1/new/test2.sv,1683923798,systemVerilog,,,,test2,,uvm,,,,,,
+E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sim_1/new/test3.sv,1683923924,systemVerilog,,,,test3,,uvm,,,,,,
+E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sim_1/new/test_counter1.sv,1683924204,systemVerilog,,,,test_counter1,,uvm,,,,,,
+E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sim_1/new/test_shfter.sv,1684524316,systemVerilog,,,,test_shfter,,uvm,,,,,,
+E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sim_1/new/testreg.sv,1687379580,systemVerilog,,,,testreg,,uvm,,,,,,
+E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/Contador_maestro.sv,1683924254,systemVerilog,,E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/counter1.sv,,Contador_maestro,,uvm,,,,,,
+E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/counter1.sv,1684509054,systemVerilog,,E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/counter2.sv,,counter1,,uvm,,,,,,
+E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/counter2.sv,1683861104,systemVerilog,,E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/counter3.sv,,counter2,,uvm,,,,,,
+E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/counter3.sv,1683861376,systemVerilog,,E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sim_1/new/test_counter1.sv,,counter3,,uvm,,,,,,
+E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/reg_param.sv,1685028478,systemVerilog,,E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sim_1/new/testreg.sv,,reg_param,,uvm,,,,,,
+E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sources_1/new/shifter.sv,1684522092,systemVerilog,,E:/Fotos lab digitales/Guia 5/Guia_5/Guia_5.srcs/sim_1/new/test_shfter.sv,,shifter,,uvm,,,,,,

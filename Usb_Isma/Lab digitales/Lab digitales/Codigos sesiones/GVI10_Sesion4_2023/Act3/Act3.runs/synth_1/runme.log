@@ -1,0 +1,241 @@
+
+*** Running vivado
+    with args -log S4_actividad3.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source S4_actividad3.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source S4_actividad3.tcl -notrace
+create_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 374.723 ; gain = 64.215
+Command: synth_design -top S4_actividad3 -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 10448
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 812.441 ; gain = 412.609
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'S4_actividad3' [E:/Fotos lab digitales/GVI10_Sesion4_2023/Act3/Act3.srcs/sources_1/new/S4_actividad3.sv:3]
+INFO: [Synth 8-226] default block is never used [E:/Fotos lab digitales/GVI10_Sesion4_2023/Act3/Act3.srcs/sources_1/new/S4_actividad3.sv:14]
+INFO: [Synth 8-6155] done synthesizing module 'S4_actividad3' (0#1) [E:/Fotos lab digitales/GVI10_Sesion4_2023/Act3/Act3.srcs/sources_1/new/S4_actividad3.sv:3]
+WARNING: [Synth 8-3848] Net Result in module/entity S4_actividad3 does not have driver. [E:/Fotos lab digitales/GVI10_Sesion4_2023/Act3/Act3.srcs/sources_1/new/S4_actividad3.sv:6]
+WARNING: [Synth 8-3848] Net Flags in module/entity S4_actividad3 does not have driver. [E:/Fotos lab digitales/GVI10_Sesion4_2023/Act3/Act3.srcs/sources_1/new/S4_actividad3.sv:7]
+WARNING: [Synth 8-3330] design S4_actividad3 has an empty top module
+WARNING: [Synth 8-7129] Port Result[7] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Result[6] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Result[5] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Result[4] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Result[3] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Result[2] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Result[1] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Result[0] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Flags[4] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Flags[3] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Flags[2] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Flags[1] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Flags[0] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[7] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[6] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[5] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[4] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[3] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[2] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[1] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[0] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[7] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[6] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[5] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[4] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[3] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[2] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[1] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[0] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OpCode[1] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OpCode[0] in module S4_actividad3 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 901.992 ; gain = 502.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 901.992 ; gain = 502.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 901.992 ; gain = 502.160
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:13 . Memory (MB): peak = 901.992 ; gain = 502.160
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3330] design S4_actividad3 has an empty top module
+WARNING: [Synth 8-7129] Port Result[7] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Result[6] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Result[5] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Result[4] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Result[3] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Result[2] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Result[1] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Result[0] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Flags[4] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Flags[3] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Flags[2] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Flags[1] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Flags[0] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[7] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[6] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[5] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[4] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[3] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[2] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[1] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[0] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[7] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[6] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[5] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[4] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[3] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[2] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[1] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[0] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OpCode[1] in module S4_actividad3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OpCode[0] in module S4_actividad3 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1087.879 ; gain = 688.047
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1087.879 ; gain = 688.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1087.879 ; gain = 688.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:31 . Memory (MB): peak = 1087.879 ; gain = 688.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:31 . Memory (MB): peak = 1087.879 ; gain = 688.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:31 . Memory (MB): peak = 1087.879 ; gain = 688.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:31 . Memory (MB): peak = 1087.879 ; gain = 688.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:31 . Memory (MB): peak = 1087.879 ; gain = 688.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:31 . Memory (MB): peak = 1087.879 ; gain = 688.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |OBUFT |    13|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    13|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:31 . Memory (MB): peak = 1087.879 ; gain = 688.047
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 67 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:31 . Memory (MB): peak = 1087.879 ; gain = 688.047
+Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:31 . Memory (MB): peak = 1087.879 ; gain = 688.047
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1091.848 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1198.453 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: a155cc81
+INFO: [Common 17-83] Releasing license: Synthesis
+14 Infos, 67 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:34 . Memory (MB): peak = 1198.453 ; gain = 823.730
+INFO: [Common 17-1381] The checkpoint 'E:/Fotos lab digitales/GVI10_Sesion4_2023/Act3/Act3.runs/synth_1/S4_actividad3.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file S4_actividad3_utilization_synth.rpt -pb S4_actividad3_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri May  5 11:05:47 2023...

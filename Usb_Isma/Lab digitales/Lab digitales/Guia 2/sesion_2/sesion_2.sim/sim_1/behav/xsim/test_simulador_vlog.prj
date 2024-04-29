@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../sesion_2.srcs/sources_1/new/BCD_to_sevenSeg.sv" \
+"../../../../sesion_2.srcs/sources_1/new/counter_4bit.sv" \
+"../../../../sesion_2.srcs/sources_1/new/fib_rec.sv" \
+"../../../../sesion_2.srcs/sources_1/new/top_module.sv" \
+"../../../../sesion_2.srcs/sim_1/new/test_simulador.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

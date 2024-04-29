@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Jul 24 19:59:47 2023
+# Process ID: 8504
+# Current directory: C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 2/sesion_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29216 C:\Users\ismae\OneDrive\Escritorio\Lab digitales\Guia 2\sesion_2\sesion_2.xpr
+# Log file: C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 2/sesion_2/vivado.log
+# Journal file: C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 2/sesion_2\vivado.jou
+# Running On: LAPTOP-KMRB3L2R, OS: Windows, CPU Frequency: 2895 MHz, CPU Physical cores: 16, Host memory: 7907 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 2/sesion_2/sesion_2.xpr}
+update_compile_order -fileset sources_1

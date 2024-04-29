@@ -1,0 +1,4 @@
+Running: xsim.dir/test_shfter_behav/xsimk.exe -simmode gui -wdb test_shfter_behav.wdb -simrunnum 0 -socket 52116
+Design successfully loaded
+Design Loading Memory Usage: 8568 KB (Peak: 8568 KB)
+Design Loading CPU Usage: 0 ms

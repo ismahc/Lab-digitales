@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/new/BCD_to_sevenSeg.sv" \
+"../../../../project_1.srcs/sources_1/new/Dec_8.sv" \
+"../../../../project_1.srcs/sources_1/new/Display.sv" \
+"../../../../project_1.srcs/sources_1/new/Mux.sv" \
+"../../../../project_1.srcs/sources_1/new/Mux_temporal_multi_bits.sv" \
+"../../../../project_1.srcs/sources_1/new/PB_debouncer.sv" \
+"../../../../project_1.srcs/sources_1/new/ReversePolishFSM.sv" \
+"../../../../project_1.srcs/sources_1/new/S4_actividad1.sv" \
+"../../../../project_1.srcs/sources_1/new/S4_actividad3.sv" \
+"../../../../project_1.srcs/sources_1/new/S6_Actividad1.sv" \
+"../../../../project_1.srcs/sources_1/new/S8_actividad2.sv" \
+"../../../../project_1.srcs/sources_1/new/counter_Nbits.sv" \
+"../../../../project_1.srcs/sources_1/new/reg_param.sv" \
+"../../../../project_1.srcs/sources_1/new/unsigned_to_bcd.sv" \
+"../../../../project_1.srcs/sim_1/new/test2.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

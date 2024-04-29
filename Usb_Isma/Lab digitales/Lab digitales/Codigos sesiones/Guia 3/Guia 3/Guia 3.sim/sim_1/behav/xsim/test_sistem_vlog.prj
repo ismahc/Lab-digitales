@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Guia 3.srcs/sources_1/new/BCD_to_sevenSeg.sv" \
+"../../../../Guia 3.srcs/sources_1/new/MUX_temporal.sv" \
+"../../../../Guia 3.srcs/sources_1/new/clock_divider_par.sv" \
+"../../../../Guia 3.srcs/sources_1/new/contador_Nbits.sv" \
+"../../../../Guia 3.srcs/sources_1/new/decodificador_binario.sv" \
+"../../../../Guia 3.srcs/sources_1/new/sistema_multi.sv" \
+"../../../../Guia 3.srcs/sim_1/new/test_sistem.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

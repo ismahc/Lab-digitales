@@ -1,0 +1,295 @@
+
+*** Running vivado
+    with args -log S8_actividad1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source S8_actividad1.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source S8_actividad1.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 375.812 ; gain = 50.383
+Command: read_checkpoint -auto_incremental -incremental {E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/utils_1/imports/synth_1/S8_actividad1.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/utils_1/imports/synth_1/S8_actividad1.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top S8_actividad1 -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12004
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 816.367 ; gain = 408.699
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'S8_actividad1' [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/S8_actividad1.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'PB_Debouncer' [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/PB_debouncer.sv:3]
+	Parameter DELAY bound to: 10 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/PB_debouncer.sv:55]
+INFO: [Synth 8-6155] done synthesizing module 'PB_Debouncer' (0#1) [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/PB_debouncer.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'ReversePolishFSM' [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/ReversePolishFSM.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'ReversePolishFSM' (0#1) [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/ReversePolishFSM.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'S6_Actividad1' [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/S6_Actividad1.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'reg_param' [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/reg_param.sv:3]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'reg_param' (0#1) [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/reg_param.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'reg_param__parameterized0' [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/reg_param.sv:3]
+	Parameter N bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'reg_param__parameterized0' (0#1) [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/reg_param.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'S4_actividad3' [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/S4_actividad3.sv:23]
+	Parameter M bound to: 16 - type: integer 
+INFO: [Synth 8-226] default block is never used [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/S4_actividad3.sv:34]
+INFO: [Synth 8-6155] done synthesizing module 'S4_actividad3' (0#1) [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/S4_actividad3.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'reg_param__parameterized1' [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/reg_param.sv:3]
+	Parameter N bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'reg_param__parameterized1' (0#1) [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/reg_param.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'S6_Actividad1' (0#1) [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/S6_Actividad1.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'Display' [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/Display.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'Display' (0#1) [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/Display.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'S4_actividad1' [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/S4_actividad1.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'counter_Nbits' [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/counter_Nbits.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'counter_Nbits' (0#1) [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/counter_Nbits.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'Mux_temporal_multi_bits' [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/Mux_temporal_multi_bits.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'Mux_temporal_multi_bits' (0#1) [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/Mux_temporal_multi_bits.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'Dec_8' [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/Dec_8.sv:3]
+INFO: [Synth 8-226] default block is never used [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/Dec_8.sv:8]
+INFO: [Synth 8-6155] done synthesizing module 'Dec_8' (0#1) [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/Dec_8.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'BCD_to_sevenSeg' [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/BCD_to_sevenSeg.sv:3]
+INFO: [Synth 8-226] default block is never used [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/BCD_to_sevenSeg.sv:8]
+INFO: [Synth 8-6155] done synthesizing module 'BCD_to_sevenSeg' (0#1) [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/BCD_to_sevenSeg.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'S4_actividad1' (0#1) [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/S4_actividad1.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'S8_actividad1' (0#1) [E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.srcs/sources_1/new/S8_actividad1.sv:3]
+WARNING: [Synth 8-7129] Port DisplayFormat in module S8_actividad1 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 906.930 ; gain = 499.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 906.930 ; gain = 499.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 906.930 ; gain = 499.262
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'PB_Debouncer'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'ReversePolishFSM'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 PB_IDLE |                            00001 |                           000000
+                PB_COUNT |                            00010 |                           000001
+              PB_PRESSED |                            00100 |                           000010
+               PB_STABLE |                            01000 |                           000011
+             PB_RELEASED |                            10000 |                           000100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'PB_Debouncer'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            Entering_OpA |                          0000001 |                          0000000
+                Load_OpA |                          0000010 |                          0000001
+            Entering_OpB |                          0000100 |                          0000010
+                Load_OpB |                          0001000 |                          0000011
+         Entering_OpCode |                          0010000 |                          0000100
+             Load_OpCode |                          0100000 |                          0000101
+             Show_Result |                          1000000 |                          0000110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'ReversePolishFSM'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 906.930 ; gain = 499.262
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   17 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 1     
++---XORs : 
+	               16 Bit    Wide XORs := 1     
++---Registers : 
+	               16 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   4 Input   17 Bit        Muxes := 2     
+	   2 Input   16 Bit        Muxes := 1     
+	   8 Input    8 Bit        Muxes := 1     
+	   7 Input    7 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 7     
+	   5 Input    6 Bit        Muxes := 2     
+	   5 Input    5 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 10    
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 2     
+	   5 Input    3 Bit        Muxes := 2     
+	   7 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 5     
+	   7 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port DisplayFormat in module S8_actividad1 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:37 . Memory (MB): peak = 1128.219 ; gain = 720.551
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:37 . Memory (MB): peak = 1128.219 ; gain = 720.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:37 . Memory (MB): peak = 1128.219 ; gain = 720.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:44 . Memory (MB): peak = 1128.219 ; gain = 720.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:44 . Memory (MB): peak = 1128.219 ; gain = 720.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:44 . Memory (MB): peak = 1128.219 ; gain = 720.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:44 . Memory (MB): peak = 1128.219 ; gain = 720.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:44 . Memory (MB): peak = 1128.219 ; gain = 720.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:44 . Memory (MB): peak = 1128.219 ; gain = 720.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     5|
+|3     |LUT1   |     5|
+|4     |LUT2   |     9|
+|5     |LUT3   |    31|
+|6     |LUT4   |    15|
+|7     |LUT5   |    28|
+|8     |LUT6   |    24|
+|9     |FDRE   |    83|
+|10    |FDSE   |     3|
+|11    |IBUF   |    20|
+|12    |OBUF   |    23|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------------+--------------------------+------+
+|      |Instance           |Module                    |Cells |
++------+-------------------+--------------------------+------+
+|1     |top                |                          |   247|
+|2     |  Debouncer_enter  |PB_Debouncer              |    23|
+|3     |  Debouncer_undo   |PB_Debouncer_0            |    23|
+|4     |  NumTo7Seg        |S4_actividad1             |    37|
+|5     |    contador_3bits |counter_Nbits             |    37|
+|6     |  ReversePolishFSM |ReversePolishFSM          |    18|
+|7     |  Sistema_ALU      |S6_Actividad1             |   102|
+|8     |    alu            |S4_actividad3             |    16|
+|9     |    registro_a     |reg_param                 |    21|
+|10    |    registro_b     |reg_param_1               |    16|
+|11    |    registro_op    |reg_param__parameterized0 |    28|
+|12    |    result_alu     |reg_param_2               |    17|
+|13    |    result_flags   |reg_param__parameterized1 |     4|
++------+-------------------+--------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:44 . Memory (MB): peak = 1128.219 ; gain = 720.551
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:44 . Memory (MB): peak = 1128.219 ; gain = 720.551
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:44 . Memory (MB): peak = 1128.219 ; gain = 720.551
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1131.070 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1220.234 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 71dcceba
+INFO: [Common 17-83] Releasing license: Synthesis
+53 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:48 . Memory (MB): peak = 1220.234 ; gain = 819.574
+INFO: [Common 17-1381] The checkpoint 'E:/Fotos lab digitales/GVI10_sesion8/actividad1/project_1/project_1.runs/synth_1/S8_actividad1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file S8_actividad1_utilization_synth.rpt -pb S8_actividad1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 16 10:56:55 2023...

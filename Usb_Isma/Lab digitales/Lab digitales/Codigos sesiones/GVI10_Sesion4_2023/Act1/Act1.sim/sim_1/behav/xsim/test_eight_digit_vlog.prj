@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Act1.srcs/sources_1/new/BCD_to_sevenSeg.sv" \
+"../../../../Act1.srcs/sources_1/new/Dec_8.sv" \
+"../../../../Act1.srcs/sources_1/new/Mux_temporal_multi_bits.sv" \
+"../../../../Act1.srcs/sources_1/new/S4_actividad1.sv" \
+"../../../../Act1.srcs/sources_1/new/counter_Nbits.sv" \
+"../../../../Act1.srcs/sim_1/new/test_eight_digit.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

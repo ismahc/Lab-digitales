@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 4/Act3/Act3.srcs/sources_1/new/S4_actividad3.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module S4_actividad3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 4/Act3/Act3.srcs/sim_1/new/test_act3.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_act3

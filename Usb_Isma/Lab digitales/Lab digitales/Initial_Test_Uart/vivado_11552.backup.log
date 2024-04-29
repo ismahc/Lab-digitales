@@ -1,0 +1,366 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Jul  4 13:52:49 2022
+# Process ID: 11552
+# Current directory: C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7100 C:\Users\angel\OneDriveUsm\MisDatos\Teaching\UsmWork\PartTimeProf\ELO212LabSigDig_2022_1\Vivado_lab_sesions\SesionLab10\Initial_Test_Uart\TestUart.xpr
+# Log file: C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/vivado.log
+# Journal file: C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart'
+INFO: [Project 1-313] Project file moved from 'C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/TestUart' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.gen/sources_1', nor could it be found using path 'C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/TestUart/TestUart.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+import_files -norecurse {C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Material_GitHub/ELO212-reference-modules/UART_reference_files/UART_ME_reference/UART_master.srcs/sources/uart/uart_tx.v C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Material_GitHub/ELO212-reference-modules/UART_reference_files/UART_ME_reference/UART_master.srcs/sources/uart/uart_basic.v C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Material_GitHub/ELO212-reference-modules/UART_reference_files/UART_ME_reference/UART_master.srcs/sources/uart/data_sync.v C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Material_GitHub/ELO212-reference-modules/UART_reference_files/UART_ME_reference/UART_master.srcs/sources/uart/uart_baud_tick_gen.v C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Material_GitHub/ELO212-reference-modules/UART_reference_files/UART_ME_reference/UART_master.srcs/sources/uart/uart_rx.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse C:/Users/angel/Downloads/Constraints.xdc
+import_files -fileset constrs_1 C:/Users/angel/Downloads/Constraints.xdc
+file mkdir C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/new
+close [ open C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/new/Main.sv w ]
+add_files C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/new/Main.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: Main
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+ERROR: [Synth 8-2576] procedural assignment to a non-register tx_start is not permitted [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/new/Main.sv:67]
+ERROR: [Synth 8-2576] procedural assignment to a non-register tx_start is not permitted [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/new/Main.sv:69]
+INFO: [Synth 8-2350] module Main ignored due to previous errors [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/new/Main.sv:23]
+Failed to read verilog 'C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/new/Main.sv'
+2 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: Main
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1772.070 ; gain = 19.246
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Main' [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/new/Main.sv:23]
+ERROR: [Synth 8-439] module 'PB_Debouncer_FSM' not found [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/new/Main.sv:41]
+	Parameter DELAY bound to: 32'sb00000000000000011000011010100000 
+ERROR: [Synth 8-6156] failed synthesizing module 'Main' [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/new/Main.sv:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1817.156 ; gain = 64.332
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+1 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: Main
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1817.156 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Main' [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/new/Main.sv:23]
+ERROR: [Synth 8-439] module 'PB_Debouncer_FSM' not found [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/new/Main.sv:41]
+	Parameter DELAY bound to: 32'sb00000000000000011000011010100000 
+ERROR: [Synth 8-6156] failed synthesizing module 'Main' [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/new/Main.sv:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1817.473 ; gain = 0.316
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+1 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+import_files -norecurse C:/Users/angel/Downloads/PB_Debouncer_FSM.sv
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: Main
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1828.641 ; gain = 11.168
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Main' [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/new/Main.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'PB_Debouncer_FSM' [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/Downloads/PB_Debouncer_FSM.sv:23]
+	Parameter DELAY bound to: 100000 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/Downloads/PB_Debouncer_FSM.sv:78]
+INFO: [Synth 8-6155] done synthesizing module 'PB_Debouncer_FSM' (1#1) [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/Downloads/PB_Debouncer_FSM.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'uart_basic' [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_basic.v:10]
+	Parameter CLK_FREQUENCY bound to: 100000000 - type: integer 
+	Parameter BAUD_RATE bound to: 115200 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'uart_baud_tick_gen' [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_baud_tick_gen.v:11]
+	Parameter CLK_FREQUENCY bound to: 100000000 - type: integer 
+	Parameter BAUD_RATE bound to: 115200 - type: integer 
+	Parameter OVERSAMPLING bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'uart_baud_tick_gen' (2#1) [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_baud_tick_gen.v:11]
+INFO: [Synth 8-6157] synthesizing module 'uart_rx' [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_rx.v:10]
+INFO: [Synth 8-6157] synthesizing module 'data_sync' [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/data_sync.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'data_sync' (3#1) [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/data_sync.v:11]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_rx.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'uart_rx' (4#1) [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_rx.v:10]
+INFO: [Synth 8-6157] synthesizing module 'uart_baud_tick_gen__parameterized0' [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_baud_tick_gen.v:11]
+	Parameter CLK_FREQUENCY bound to: 100000000 - type: integer 
+	Parameter BAUD_RATE bound to: 115200 - type: integer 
+	Parameter OVERSAMPLING bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'uart_baud_tick_gen__parameterized0' (4#1) [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_baud_tick_gen.v:11]
+INFO: [Synth 8-6157] synthesizing module 'uart_tx' [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_tx.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'uart_tx' (5#1) [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_tx.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'uart_basic' (6#1) [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_basic.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'Main' (7#1) [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/new/Main.sv:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1828.641 ; gain = 11.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1851.234 ; gain = 33.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1851.234 ; gain = 33.762
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1851.234 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'Ena[0]'. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Ena[1]'. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Ena[2]'. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Ena[3]'. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Ena[4]'. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Ena[5]'. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Ena[6]'. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Ena[7]'. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg[0]'. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg[1]'. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg[2]'. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg[3]'. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg[4]'. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg[5]'. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg[6]'. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1979.141 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 2063.613 ; gain = 246.141
+20 Infos, 15 Warnings, 15 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 2063.613 ; gain = 246.141
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc]
+Finished Parsing XDC File [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc]
+Completed Processing XDC Constraints
+
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Jul  4 17:19:06 2022] Launched synth_1...
+Run output will be captured here: C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.runs/synth_1/runme.log
+[Mon Jul  4 17:19:06 2022] Launched impl_1...
+Run output will be captured here: C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.runs/impl_1/runme.log
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc]
+Finished Parsing XDC File [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc]
+Completed Processing XDC Constraints
+
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Jul  4 17:22:44 2022] Launched synth_1...
+Run output will be captured here: C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.runs/synth_1/runme.log
+[Mon Jul  4 17:22:44 2022] Launched impl_1...
+Run output will be captured here: C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A3FD9FA
+open_hw_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 3823.664 ; gain = 1708.258
+set_property PROGRAM.FILE {C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.runs/impl_1/Main.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.runs/impl_1/Main.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 3950.918 ; gain = 68.574
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Main' [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/new/Main.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'PB_Debouncer_FSM' [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/Downloads/PB_Debouncer_FSM.sv:23]
+	Parameter DELAY bound to: 100000 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/Downloads/PB_Debouncer_FSM.sv:78]
+INFO: [Synth 8-6155] done synthesizing module 'PB_Debouncer_FSM' (1#1) [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/Downloads/PB_Debouncer_FSM.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'uart_basic' [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_basic.v:10]
+	Parameter CLK_FREQUENCY bound to: 100000000 - type: integer 
+	Parameter BAUD_RATE bound to: 115200 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'uart_baud_tick_gen' [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_baud_tick_gen.v:11]
+	Parameter CLK_FREQUENCY bound to: 100000000 - type: integer 
+	Parameter BAUD_RATE bound to: 115200 - type: integer 
+	Parameter OVERSAMPLING bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'uart_baud_tick_gen' (2#1) [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_baud_tick_gen.v:11]
+INFO: [Synth 8-6157] synthesizing module 'uart_rx' [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_rx.v:10]
+INFO: [Synth 8-6157] synthesizing module 'data_sync' [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/data_sync.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'data_sync' (3#1) [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/data_sync.v:11]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_rx.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'uart_rx' (4#1) [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_rx.v:10]
+INFO: [Synth 8-6157] synthesizing module 'uart_baud_tick_gen__parameterized0' [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_baud_tick_gen.v:11]
+	Parameter CLK_FREQUENCY bound to: 100000000 - type: integer 
+	Parameter BAUD_RATE bound to: 115200 - type: integer 
+	Parameter OVERSAMPLING bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'uart_baud_tick_gen__parameterized0' (4#1) [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_baud_tick_gen.v:11]
+INFO: [Synth 8-6157] synthesizing module 'uart_tx' [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_tx.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'uart_tx' (5#1) [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_tx.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'uart_basic' (6#1) [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/imports/uart/uart_basic.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'Main' (7#1) [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/sources_1/new/Main.sv:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3984.141 ; gain = 101.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 4006.969 ; gain = 124.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 4006.969 ; gain = 124.625
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 4021.391 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc]
+Finished Parsing XDC File [C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.srcs/constrs_1/imports/Downloads/Constraints.xdc]
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 4021.391 ; gain = 139.047
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Jul  4 17:29:21 2022] Launched synth_1...
+Run output will be captured here: C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.runs/synth_1/runme.log
+[Mon Jul  4 17:29:21 2022] Launched impl_1...
+Run output will be captured here: C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.runs/impl_1/Main.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+close_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Jul  4 17:34:23 2022] Launched synth_1...
+Run output will be captured here: C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.runs/synth_1/runme.log
+[Mon Jul  4 17:34:23 2022] Launched impl_1...
+Run output will be captured here: C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 4021.391 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A3FD9FA
+set_property PROGRAM.FILE {C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.runs/impl_1/Main.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.runs/impl_1/Main.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+close_project
+****** Webtalk v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/angel/OneDriveUsm/MisDatos/Teaching/UsmWork/PartTimeProf/ELO212LabSigDig_2022_1/Vivado_lab_sesions/SesionLab10/Initial_Test_Uart/TestUart.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Mon Jul  4 17:37:26 2022. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2021.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Jul  4 17:37:26 2022...
+close_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 4021.391 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jul  4 17:37:30 2022...

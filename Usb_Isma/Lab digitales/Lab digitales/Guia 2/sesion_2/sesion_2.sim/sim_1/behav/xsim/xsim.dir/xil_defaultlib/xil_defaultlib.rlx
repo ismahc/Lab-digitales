@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 2/sesion_2/sesion_2.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 2/sesion_2/sesion_2.srcs/sim_1/new/test_simulador.sv,1681508112,systemVerilog,,,,test_simulador,,uvm,,,,,,
+C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 2/sesion_2/sesion_2.srcs/sources_1/new/BCD_to_sevenSeg.sv,1681505585,systemVerilog,,C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 2/sesion_2/sesion_2.srcs/sources_1/new/counter_4bit.sv,,BCD_to_sevenSeg,,uvm,,,,,,
+C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 2/sesion_2/sesion_2.srcs/sources_1/new/counter_4bit.sv,1681504672,systemVerilog,,C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 2/sesion_2/sesion_2.srcs/sources_1/new/fib_rec.sv,,counter_4bit,,uvm,,,,,,
+C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 2/sesion_2/sesion_2.srcs/sources_1/new/fib_rec.sv,1681440869,systemVerilog,,C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 2/sesion_2/sesion_2.srcs/sources_1/new/top_module.sv,,fib_rec,,uvm,,,,,,
+C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 2/sesion_2/sesion_2.srcs/sources_1/new/top_module.sv,1681507886,systemVerilog,,C:/Users/ismae/OneDrive/Escritorio/Lab digitales/Guia 2/sesion_2/sesion_2.srcs/sim_1/new/test_simulador.sv,,top_module,,uvm,,,,,,

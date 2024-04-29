@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Apr 19 15:01:18 2024
+# Process ID: 28992
+# Current directory: C:/Users/pmomi/Documents/VivadoXilinx/Usb_Isma/Lab digitales/Lab digitales/Guia 3/guia3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10496 C:\Users\pmomi\Documents\VivadoXilinx\Usb_Isma\Lab digitales\Lab digitales\Guia 3\guia3\guia3.xpr
+# Log file: C:/Users/pmomi/Documents/VivadoXilinx/Usb_Isma/Lab digitales/Lab digitales/Guia 3/guia3/vivado.log
+# Journal file: C:/Users/pmomi/Documents/VivadoXilinx/Usb_Isma/Lab digitales/Lab digitales/Guia 3/guia3\vivado.jou
+# Running On: Forgiveness, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 8, Host memory: 16890 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/pmomi/Documents/VivadoXilinx/Usb_Isma/Lab digitales/Lab digitales/Guia 3/guia3/guia3.xpr}
+update_compile_order -fileset sources_1

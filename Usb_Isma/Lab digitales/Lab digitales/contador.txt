@@ -1,0 +1,65 @@
+module contador_nexys(
+    input logic clk,
+    input logic btn,
+    output logic [7:0] leds
+);
+
+logic [31:0] count = 0; // Contador de 32 bits para contar hasta el valor deseado.
+
+always_ff @(posedge clk) begin
+    // Si se detecta un flanco de subida en el botón (pulsación), incrementar el contador.
+    if (btn) begin
+        count <= count + 1;
+    end
+end
+
+// Asignar los 8 bits menos significativos del contador a las salidas de los LEDs.
+always_comb begin
+    leds = count[7:0];
+end
+
+endmodule
+
+
+
+
+
+Test
+
+
+module tb_contador_nexys;
+
+    // Parámetros
+    parameter CLK_PERIOD = 10; // Período de la señal de reloj en unidades de tiempo de simulación
+
+    // Señales del Testbench
+    logic clk;
+    logic btn;
+    logic [7:0] leds;
+
+    // Instancia del DUT (Device Under Test)
+    contador_nexys dut (
+        .clk(clk),
+        .btn(btn),
+        .leds(leds)
+    );
+
+    // Generación de la señal de reloj
+    always #((CLK_PERIOD)/2) clk = ~clk;
+
+    // Generación de pulsaciones del botón (10 unidades de tiempo en bajo, 10 unidades en alto)
+    initial begin
+        btn = 0;
+        repeat (5) begin
+            #5 btn = 1;
+            #5 btn = 0;
+        end
+        #100 $finish; // Terminar la simulación después de 100 unidades de tiempo
+    end
+
+    // Monitor para mostrar las salidas del contador en los LEDs
+    always @(posedge clk) begin
+        $display("Contador: %d, LEDS: %h", dut.count, leds);
+    end
+
+endmodule

@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Jun 18 20:04:42 2023
+# Process ID: 14436
+# Current directory: E:/Fotos lab digitales/GVI10_sesion8/nexys/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18092 E:\Fotos lab digitales\GVI10_sesion8\nexys\project_1\project_1.xpr
+# Log file: E:/Fotos lab digitales/GVI10_sesion8/nexys/project_1/vivado.log
+# Journal file: E:/Fotos lab digitales/GVI10_sesion8/nexys/project_1\vivado.jou
+# Running On: Chano_ELO, OS: Windows, CPU Frequency: 2994 MHz, CPU Physical cores: 12, Host memory: 7907 MB
+#-----------------------------------------------------------
+start_gui
+open_project {E:/Fotos lab digitales/GVI10_sesion8/nexys/project_1/project_1.xpr}
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top S8_actividad2 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+refresh_design
