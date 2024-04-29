@@ -1,63 +1,58 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// University: Universidad Tecnica Federico Santa Maria
+// Course: ELO212
+// Students: 
+// 
+// Create Date: 
+// Design Name: Guia 4
+// Module Name: S4_actividad2
+// Project Name: 
+// Target Devices: xc7a100tcsg324-1
+// Tool Versions: Vivado 2021.1
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
 module S4_actividad2 #(parameter N = 32)(
 	input  logic            clock, reset,
 	input  logic            dec, enable, load,
-	input  logic [N-1:0]    Load_Ref_value,
+	input  logic [N-1:0]    load_ref_value,
 	output logic [N-1:0]    counterN,
 	output logic            threshold
     	);
     
+	logic [N-1:0] next_counter;
 	
-	
-	
-	 //Para la comparacion de threshold se usara un modulo always_ff diferente al de las condiciones anteriore.
-    //Esto ya que su comporamiento no depende de ninguna de las demas señales y no esta sujeto a la prioridad pedida en el circuito.
-
-	
-
-	
-	//Se evaluan las condiciones de las demas entradas
-	
-	
-	always_ff @(posedge clock  ) begin
-		if (reset==1) //prioridad 1
+	always_ff @(posedge clock) begin
+		if (reset)
 			counterN <= 0;
-			
-		else //entra a enable
-		    if (enable==1)//entra a dec
-		    
-			     if (dec == 1) //resta 1
-			         counterN <= counterN-1;
-			     else //dec == 0 suma 1
-			         counterN <= counterN+1;
-			else //si enable es 0 entra a load 
-			     if (load == 1)
-			         counterN <= Load_Ref_value;
-                 else 
-                 // si load == 0 sigue con  las demas instrucciones. 
-                 //En este caso solo pasara a mantener el valor actual de counterN
-
-                 counterN <= counterN;
-                 
-            //se terminan las condiciones
-                 
-           //se entrega el resultado de counterN a la salida.      
-               
-               
+		else
+			counterN <= next_counter;
 	end
 
+	always_comb begin
+                 if (enable==1)//entra a dec
+			             if (dec == 1) //resta 1
+			                  next_counter = counterN-1;
+			             else //dec == 0 suma 1
+			                  next_counter = counterN+1;
+			     else //si enable es 0 entra a load 
+			         if (load == 1)
+			              next_counter = load_ref_value;
+                 else 
+			             next_counter = counterN;
+		if (counterN <= load_ref_value)
+		    	threshold = 0;
+		else
+		    	threshold =1; 
+	    
+	end                 
 
-	always_ff @(posedge clock  ) begin
-    
-           if (counterN <= Load_Ref_value)
-           
-                 threshold <= 0;
-                 
-           else
-           
-                 threshold <=1; 
-
-    end
-endmodule  
-    
-
-
+endmodule
