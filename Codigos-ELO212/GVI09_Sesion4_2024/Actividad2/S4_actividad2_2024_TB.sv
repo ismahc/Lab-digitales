@@ -25,7 +25,7 @@ module test_act2(
     );
     
      logic clock, reset,enable, dec,load;
-     logic [3:0] Load_Ref_value;
+     logic [3:0] load_ref_value;
      logic [3:0] counterN;
      logic threshold;
      
@@ -36,7 +36,7 @@ module test_act2(
                                 .dec(dec),
                                 .load(load),
                                 .counterN(counterN),
-                               .load_ref_value(load_ref_value),
+                                .load_ref_value(load_ref_value),
                                 .threshold(threshold));
                                                       
        always #1 clock = ~clock;
@@ -46,7 +46,7 @@ module test_act2(
             reset = 1;
             enable = 0;
             load = 0;
-            load_ref_value = 4'b1111;
+            load_ref_value = 4'b0011;
             dec = 0;
             #2
             reset = 0;           
