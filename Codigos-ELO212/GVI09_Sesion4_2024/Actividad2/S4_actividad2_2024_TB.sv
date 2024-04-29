@@ -36,7 +36,7 @@ module test_act2(
                                 .dec(dec),
                                 .load(load),
                                 .counterN(counterN),
-                               .Load_Ref_value(load_ref_value),
+                               .load_ref_value(load_ref_value),
                                 .threshold(threshold));
                                                       
        always #1 clock = ~clock;
