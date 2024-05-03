@@ -17,7 +17,13 @@ module count_especial (
 
 
     //recordar que se puede hacer el mux de esta manera (no trivial)
-    assign count_aux (ctrl == 1'b1)? count + 4'd2 : count + 4'b1; 
-    //
+    //assign count_aux (ctrl == 1'b1)? count + 4'd2 : count + 4'b1; 
+    // o de esta manera (trivial)
+    always_comb begin
+        case (ctrl)
+            1'b1: count_aux = count + 4'd2;
+            default: count_aux = count + 4'b1;
+        endcase
+    end
 
 endmodule
