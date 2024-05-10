@@ -4,7 +4,7 @@ module test_alu_reg();
     logic load_a, load_b, load_Op, clk,reset,updateRes;
     logic [6:0]Segments;
     logic [7:0]Anodes;
-    logic LEDs;
+    logic [4:0]LEDs;
     
     alu_reg #(.N(16)) DUT (.data_in(data_in),
                            .load_a(load_a),
