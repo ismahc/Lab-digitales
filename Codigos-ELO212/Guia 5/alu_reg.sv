@@ -25,7 +25,7 @@ module alu_reg #(parameter N = 16)(
     input logic load_a, load_b, load_Op, clk,reset,updateRes,
     output logic [6:0]Segments,
     output logic [7:0]Anodes,
-    output logic LEDs
+    output logic [4:0]LEDs
     );
     
     
