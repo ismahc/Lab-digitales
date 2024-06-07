@@ -1,50 +1,55 @@
 `timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 19.05.2023 12:39:20
+// Design Name: 
+// Module Name: alu_reg
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
 
-module ALU_ref #(parameter M = 8)
-(
-	input logic [M-1:0] A,
-	input logic [M-1:0] B,
-	input logic [1:0] OpCode,
 
-	output logic [M-1:0] Result,
-	output logic [4:0] Flags
-);
-	logic N, Z, C, V, P;
-
-	always_comb begin
-		case(OpCode)
-			2'b00: begin
-			    //RESTA
-			    {C, Result} = A - B;
-				V = (Result[M-1] & ~A[M-1] & B[M-1]) | (~Result[M-1] & A[M-1] & ~B[M-1]);
-			end
-
-			2'b01: begin
-			    //SUMA
-			    {C, Result} = A + B;
-				V = (Result[M-1] & ~A[M-1] & ~B[M-1]) | (~Result[M-1] & A[M-1] & B[M-1]);		
-			end
-
-			2'b10: begin
-			    //OR 
-				Result = (A | B);
-				C = 1'b0;
-				V = 1'b0;
-			end
-
-			2'b11: begin
-			    //AND
-				Result = (A & B);
-				C = 1'b0;
-				V = 1'b0;
-			end
-
-		endcase
-
-		N = Result[M-1];
-		Z = (Result == '0);
-		P = ^Result;
-
-		Flags = {N, Z, C, V, P};
-	end
+module alu_reg #(parameter N = 16)(
+    input logic [N-1:0] data_in,
+    input logic load_A, load_B, load_Op, clk,reset,updateRes,
+    output logic [6:0]Segments,
+    output logic [7:0]Anodes,
+    output logic [4:0]LEDs
+    );
+    
+    
+    logic [1:0] V_op;
+    logic [N-1 : 0] V_a, V_b;
+    logic [1:0] data_in_op;
+    logic [N-1:0] Result;
+    logic [4:0] Flags;
+    logic [N-1:0] HEX_in;
+    assign  data_in_op = data_in[1:0];
+    
+    
+    reg_param #(.N(N)) registro_a (.clk(clk), .reset(reset) , .load(load_A), .D(data_in),.Q(V_a));
+    
+    reg_param #(.N(N)) registro_b (.clk(clk), .reset(reset) , .load(load_B), .D(data_in),.Q(V_b));
+    
+    reg_param #(.N(2)) registro_op (.clk(clk), .reset(reset) , .load(load_Op), .D(data_in_op),.Q(V_op));
+    
+    S4_actividad3 #(.M(N)) alu (.A(V_a), .B(V_b), .OpCode(V_op), .Result(Result), .Flags(Flags));
+   
+    reg_param #(.N(N)) result_alu (.clk(clk), .reset(reset), .load(updateRes), .D(Result),.Q(HEX_in)); //cambiar seven_seg_imput por la entrada del modulo de seven seg
+   
+    reg_param #(.N(5)) result_flags (.clk(clk), .reset(reset), .load(updateRes), .D(Flags),.Q(LEDs));
+    
+    S4_actividad1 Hex_to_sevenseg (.clock(clk), .reset(reset), .HEX_in(HEX_in), .segments (Segments), .anodes(Anodes));
+    
 endmodule
