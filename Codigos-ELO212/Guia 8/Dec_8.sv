@@ -10,10 +10,10 @@ module Dec_8(
       3'b001:  anodes = 8'b11111101;
       3'b010:  anodes = 8'b11111011;
       3'b011:  anodes = 8'b11110111;
-      3'b100:  anodes = 8'b11101111;
-      3'b101:  anodes = 8'b11011111;
-      3'b110:  anodes = 8'b10111111;
-      3'b111:  anodes = 8'b01111111;
+      3'b100:  anodes = 8'b11111110;
+      3'b101:  anodes = 8'b11111101;
+      3'b110:  anodes = 8'b11111011;
+      3'b111:  anodes = 8'b11110111;
       default: anodes = 8'bxxxxxxxx;
      endcase
 endmodule
